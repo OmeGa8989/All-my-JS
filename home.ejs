@@ -8,8 +8,16 @@
 </head>
 
 <body>
-    <h1>The HomePage</h1>
-    <p><B>Welcome to the homePage of EJS!</B></p>
+    <h1>The HomePage <%= num %>
+    </h1>
+    <% if (num%2===0){ %>
+        <h2 class='h2'>That is an Even Number</h2>
+        <% } else { %>
+            <h2 class='h2'>That is an ODD number</h2>
+            <% } %>
+            
+            
+                <!-- <p><B>Welcome to the homePage of EJS! </B></p> -->
 </body>
 
 </html>
