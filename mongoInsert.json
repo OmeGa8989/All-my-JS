@@ -4,4 +4,5 @@ db.inventory.insertMany([
    { item: "mousepad", qty: 25, tags: ["gel", "blue"], size: { h: 19, w: 22.85, uom: "cm" } }
 ])
 let info = db.collection('inventory').find({tags:'gel'});
+let info = db.collection('inventory').find({});
 
