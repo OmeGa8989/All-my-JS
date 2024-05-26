@@ -5,7 +5,6 @@ const blog = require('./routes/blog') // dir name is routes and blog folder is s
 //  any endpoint ending with /blog will be handled by this path directory mentioned 
 
 const port = 3000;
-
 app.listen(port, () => {
     console.log("Listening on port", port)
 })
