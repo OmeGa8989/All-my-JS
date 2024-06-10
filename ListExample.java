@@ -14,7 +14,7 @@ public class ListExample {
         list.add(42);
         list.add(40);
         list.add(30);
-        list.add(20);
+        list.add(50);
 
         System.out.println(list);
 
