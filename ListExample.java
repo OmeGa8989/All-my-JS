@@ -36,7 +36,7 @@ public class ListExample {
             // // list[index] like array won't work here
         }
 
-        // multi-d arraylist
+        // multi-d arraylist here 3d with each having 5 elements
         ArrayList<ArrayList<Integer>> list2 = new ArrayList<>(10);
 
         // // initalisation
