@@ -1,2 +1,2 @@
-# All-my-JS
-concepts of js over here!
+# All-my-JS & Java
+concepts of js and java over here!
