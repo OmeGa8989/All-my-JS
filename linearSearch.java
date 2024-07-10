@@ -7,7 +7,7 @@ class linearSearch{
 // Function to print all possible pairs
 static void print(int a[], int n)
 {
-    for(int i = 0; i < n; i++) 
+    for(int i = 0; i < n; i++)
     {
         for(int j = 0; j < n; j++) 
         {
